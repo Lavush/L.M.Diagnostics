@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: products;
+    src: url(Classica-Bold.ttf);
+    font-family: details;
+    src: url(Gridstar-Regular.otf);
+
+}
+
+
+
+/*NAVLIST*/
+.navlist{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(196, 94, 236, 0.495);
+    border-radius: 10px;
+    margin: 10px;
+}
+.navlist img{
+    width: 40px;
+}
+.comp-name{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.comp-name img{
+    margin: 0px 20px 0px 0px;
+}
+.comp-name p{
+    color: rgb(250, 123, 0);
+    margin: 0px 2px;
+}
+.list span{
+    margin: 0px 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.list a{
+    color: rgb(255, 170, 0);
+    text-decoration: none;
+}
+.list{
+    color: rgb(3, 188, 0);
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+.poster{
+    display: flex;
+    justify-content: center;
+}
+.poster img{
+    max-height: 14.5rem;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.products{
+    margin: 10px;
+    border-radius: 10px;
+}
+.product-sec{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px 100px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 10px;
+}
+.sec{
+    font-size: 2rem;
+    color: white;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.product-description{
+    margin: 10px;
+}
+
+.product-head{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 136, 0);
+    text-align: center;
+}
+.product-description a{
+    text-decoration: none;
+}
+
+.product-names{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.names{
+    color: rgb(61, 0, 61);
+    font-family: products;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 2px solid rgb(255, 136, 0);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.names:hover{
+    color: white;
+    background-color: rgb(40, 0, 63);
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT*/
+/*.about{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(176, 30, 255);
+    font-weight: bolder;
+}
+
+.all{
+    display: flex;
+    background-color: rgb(181, 32, 250);
+    border-radius: 10px;
+}
+
+.main-details{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.details{
+    font-size: 17px;
+    height: 190px;
+    overflow: hidden;
+}
+.details:hover{
+    overflow: visible;
+}
+
+.name-card{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(250, 133, 0);
+    margin: 10px;
+    border-radius: 10px;
+    /*margin-right: 850px;
+}
+
+.name-card:hover{
+    scale: 1.020;
+}
+
+.text{
+    margin: 20px;
+}
+
+.ltxt{
+    margin: 5px 0px;
+    font-size: 40px;
+    filter: drop-shadow(-1px 0px 1px #00000096);
+}
+
+.mtxt{
+    margin: 0px 5px;
+    font-size: 17px;
+}
+
+.stxt{
+    color: white;
+    font-size: 20px;
+}
+
+.owner-photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 30px;
+    filter: drop-shadow(-10px 0px 5px #00000060);
+}
+
+/*.about-us-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec{
+    color: white;
+    font-size: 30px;
+    margin: 0px 20px;
+    padding: 30px 35px;
+    background-color: blue;
+}*/
+.all{
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 10px;
+}
+.all:hover{
+    color: white;
+    background-color: orange;
+}
+.name{
+    font-size: 50px;
+    margin: 10px;
+    text-align: center;
+}
+.all-details{
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    display: flex;
+}
+.detail-txt{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgb(162, 84, 235);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0px 30px 20px 30px;
+}
+.detail-txt:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+}
+.images{
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+    background-size: cover;
+    animation: slider 10s linear infinite;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+@keyframes slider{
+    0%{
+        background-image: url(img/Screenshot\ 2024-03-03\ 213652.png);
+    }
+    30%{
+        background-image: url(img/Screenshot\ 2024-03-03\ 213836.png);
+    }
+    60%{
+        background-image: url(img/Screenshot\ 2024-03-03\ 213652.png);
+    }
+    100%{
+        background-image: url(img/Screenshot\ 2024-03-03\ 213836.png);
+    }
+}
+.images:hover{
+    transform: scale(1.4);
+}
+
+
+.proprietor{
+    margin: 0px 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.proprietor:hover{
+    color: white;
+    background-color: orange;
+    transform: scale(1.1);
+}
+.proprietor img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 180px;
+}
+.prop-txt{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Arial Narrow Bold';
+}
+.prop{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*CONTACT*/
+.session{
+    background: url(img/contact.jpg);
+    background-size: cover;
+    margin: 0px 10px;
+    border-radius: 10px;
+}
+.session:hover{
+    color: orange;
+    background: url(img/contact-1.jpg);
+    background-size: cover;
+    .contact-text:hover{
+        color: orange;
+    }
+}
+.contact-text{
+    color: rgb(33, 0, 87);
+    padding: 30px 10px;
+    margin: 0px 80px;
+}
+.details1{
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: details;
+}
+.details2{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
